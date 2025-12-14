@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRChat Plugin - Enhance Your VRChat Experience</title>
+    
+    <!-- Kopyalama Koruması -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="bingbot" content="noindex, nofollow">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <span>VR</span>
+                </div>
+                <span class="logo-text">VRChat Plugin</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#developers" class="nav-link">Developers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+
+            <h1 class="hero-title">
+                <span class="gradient-text">Enhance Your</span>
+                <span class="white-text">VRChat Experience</span>
+            </h1>
+            <p class="hero-description">
+                Professional plugin designed specifically for VRChat users. Unlock advanced features, improve performance, and connect with the community like never before.
+            </p>
+            <button class="hero-cta" onclick="downloadPlugin()">
+                <i class="fas fa-download"></i>
+                Download Plugin
+            </button>
+
+            <div class="hero-features">
+                <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Safe & Secure</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Easy Install</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Free Forever</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-footer">
+            <span class="sword-icon">⚔</span>
+            <span>Made by VRChat Community Developers</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">
+                Why Choose Our <span class="highlight">VRChat Plugin</span>?
+            </h2>
+            <p class="section-subtitle">
+                Built specifically for VRChat enthusiasts who want more from their virtual experience
+            </p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast Setup</h3>
+                    <p>Get up and running in minutes with our streamlined installation process.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon purple">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Active Community</h3>
+                    <p>Join thousands of VRChat users in our thriving community.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon green">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safe & Reliable</h3>
+                    <p>Built with security in mind, ensuring your VRChat experience stays protected.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon teal">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Advanced Customization</h3>
+                    <p>Tailor the plugin to your specific needs with extensive customization options.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon orange">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Open Source</h3>
+                    <p>Transparent development with open source code for the community.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon magenta">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Performance Boost</h3>
+                    <p>Optimize your VRChat performance with our advanced optimization features.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Our plugin is specifically crafted for VRChat enthusiasts who want to push the boundaries of their virtual reality experience. Whether you're a content creator, social VR enthusiast, or just love exploring virtual worlds, this plugin brings new possibilities to your VRChat journey.</p>
+                    <div class="about-tags">
+                        <span class="tag blue">VRChat Optimized</span>
+                        <span class="tag purple">Community Driven</span>
+                        <span class="tag green">Regular Updates</span>
+                        <span class="tag orange">Free Forever</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers Section -->
+    <section id="developers" class="developers">
+        <div class="container">
+            <h2 class="section-title">
+                Meet Our <span class="highlight">Development Team</span>
+            </h2>
+            <p class="section-subtitle">
+                Passionate VRChat community developers working to enhance your virtual experience
+            </p>
+            <div class="developers-grid">
+                <div class="developer-card">
+                    <div class="developer-avatar purple">
+                        <span>K</span>
+                    </div>
+                    <h3>Krh</h3>
+                    <p class="developer-role">Fullstack Developer</p>
+                    <p class="developer-description">VRChat enthusiast with expertise in both frontend and backend development</p>
+                </div>
+                <div class="developer-card">
+                    <div class="developer-avatar purple">
+                        <span>A</span>
+                    </div>
+                    <h3>Acteua</h3>
+                    <p class="developer-role">Fullstack Developer</p>
+                    <p class="developer-description">Creating seamless VRChat experiences with full-stack development skills</p>
+                </div>
+                <div class="developer-card">
+                    <div class="developer-avatar purple">
+                        <span>A</span>
+                    </div>
+                    <h3>Az3r</h3>
+                    <p class="developer-role">Fullstack Developer</p>
+                    <p class="developer-description">Optimizing performance and building robust VRChat plugin solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2 class="section-title">
+                Built for the <span class="highlight">VRChat Community</span>
+            </h2>
+            <p class="section-subtitle">
+                Join thousands of users who have already enhanced their VRChat experience
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">
+                Have questions about our VRChat plugin? Need support or want to contribute? We'd love to hear from you!
+            </p>
+            <div class="contact-box">
+                <p>Contact our development team:</p>
+                <a href="mailto:contact@vrchat-plugin.xyz" class="contact-email">
+                    <i class="fas fa-envelope"></i>
+                    contact@vrchat-plugin.xyz
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VRChat Plugin. Made with <span class="heart">❤</span> by the VRChat Inc.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
